@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.1.3" %}
 
 package:
   name: scarplet
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/rmsare/scarplet/archive/v{{ version }}.tar.gz
-  sha256: f7d4c2f5ab9d7b9738e68c31c572c7ae4ecce41582329a85850187f3a7118dc0
+  sha256: ec33bf817c86e226d456e4dddd3c27fe86ab4984758f8b025bebf63ceb849455
 
 build:
   noarch: python
